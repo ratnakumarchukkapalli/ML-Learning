@@ -41,7 +41,7 @@ else
 fi
 
 # Check if notebook exists
-if [ ! -f "day1_data_loading_and_eda.ipynb" ]; then
+if [ ! -f "week1/day1_data_loading_and_eda.ipynb" ]; then
     echo "❌ Day 1 notebook not found!"
     exit 1
 fi
@@ -61,14 +61,14 @@ echo "📈 What's next: Tomorrow we'll clean data and engineer features"
 
 echo ""
 echo "🌐 Launching Jupyter Notebook..."
-echo "📝 Opening day1_data_loading_and_eda.ipynb"
+echo "📝 Opening week1/day1_data_loading_and_eda.ipynb"
 echo ""
 echo "=" * 60
 echo "✨ Happy Learning! Press Ctrl+C to stop Jupyter when done."
 echo "=" * 60
 
 # Launch Jupyter notebook
-jupyter notebook day1_data_loading_and_eda.ipynb
+jupyter notebook week1/day1_data_loading_and_eda.ipynb
 
 # Deactivate virtual environment when done
 deactivate
