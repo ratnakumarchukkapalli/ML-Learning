@@ -4,13 +4,13 @@ This document tracks all projects and deliverables from the 8-week Machine Learn
 
 ## 🗓️ Week-by-Week Project Overview
 
-### Week 1: ML Foundations & Core Models ✅ (Day 1 Complete)
+### Week 1: ML Foundations & Core Models ✅ (Day 1 Complete - LIVE DATA)
 
 **Focus**: Data handling, EDA, basic models, evaluation metrics
 
 | Day | Project | Status | Key Learnings | GitHub Link |
 |-----|---------|--------|---------------|-------------|
-| **Day 1** | Global Streaming Trends EDA | ✅ Complete | Entertainment data analysis, pandas fundamentals, visualization mastery | [week1/day1_streaming_trends_eda.ipynb](../week1/day1_streaming_trends_eda.ipynb) |
+| **Day 1** | Real-Time Global Streaming Trends EDA | ✅ Complete | Live API integration, TMDB data fetching, real-time trend analysis, pandas mastery | [week1/day1_real_streaming_data_eda.ipynb](../week1/day1_real_streaming_data_eda.ipynb) |
 | **Day 2** | Data Cleaning & Feature Engineering | 🔄 Next | TBD | TBD |
 | **Day 3** | Logistic Regression Model | 📋 Planned | TBD | TBD |
 | **Day 4** | Classification Metrics Analysis | 📋 Planned | TBD | TBD |
