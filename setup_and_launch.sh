@@ -41,8 +41,8 @@ else
 fi
 
 # Check if notebook exists
-if [ ! -f "week1/day1_data_loading_and_eda.ipynb" ]; then
-    echo "❌ Day 1 notebook not found!"
+if [ ! -f "week1/day1_streaming_trends_eda.ipynb" ]; then
+    echo "❌ Day 1 streaming trends notebook not found!"
     exit 1
 fi
 
@@ -55,20 +55,22 @@ echo "   • Take notes on concepts you find challenging"
 echo "   • Don't rush - understanding is more important than speed"
 
 echo ""
-echo "🎯 Today's Goal: Complete thorough EDA of the Titanic dataset"
+echo "🎯 Today's Goal: Master EDA with Global Streaming Trends Data"
+echo "🎬 Dataset: Current trending movies & TV shows across all platforms"
 echo "⏱️  Estimated time: 1.5-2 hours"
-echo "📈 What's next: Tomorrow we'll clean data and engineer features"
+echo "📈 What's next: Tomorrow we'll clean streaming data and engineer features"
 
 echo ""
 echo "🌐 Launching Jupyter Notebook..."
-echo "📝 Opening week1/day1_data_loading_and_eda.ipynb"
+echo "📝 Opening week1/day1_streaming_trends_eda.ipynb"
 echo ""
 echo "=" * 60
+echo "🎬 Analyzing what the world is watching right now!"
 echo "✨ Happy Learning! Press Ctrl+C to stop Jupyter when done."
 echo "=" * 60
 
 # Launch Jupyter notebook
-jupyter notebook week1/day1_data_loading_and_eda.ipynb
+jupyter notebook week1/day1_streaming_trends_eda.ipynb
 
 # Deactivate virtual environment when done
 deactivate

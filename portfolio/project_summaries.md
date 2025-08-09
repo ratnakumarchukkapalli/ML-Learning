@@ -10,7 +10,7 @@ This document tracks all projects and deliverables from the 8-week Machine Learn
 
 | Day | Project | Status | Key Learnings | GitHub Link |
 |-----|---------|--------|---------------|-------------|
-| **Day 1** | Titanic Dataset EDA | ✅ Complete | Dataset loading, missing data analysis, feature distributions, correlation analysis | [week1/day1_data_loading_and_eda.ipynb](../week1/day1_data_loading_and_eda.ipynb) |
+| **Day 1** | Global Streaming Trends EDA | ✅ Complete | Entertainment data analysis, pandas fundamentals, visualization mastery | [week1/day1_streaming_trends_eda.ipynb](../week1/day1_streaming_trends_eda.ipynb) |
 | **Day 2** | Data Cleaning & Feature Engineering | 🔄 Next | TBD | TBD |
 | **Day 3** | Logistic Regression Model | 📋 Planned | TBD | TBD |
 | **Day 4** | Classification Metrics Analysis | 📋 Planned | TBD | TBD |
@@ -140,16 +140,17 @@ This document tracks all projects and deliverables from the 8-week Machine Learn
 ### Current Status: Week 1 Day 1 ✅
 
 **Day 1 Achievements:**
-- Successfully loaded and explored Titanic dataset
-- Identified key survival predictors: Gender (74.2% vs 18.9%), Class (1st: 63% vs 3rd: 24.2%)
-- Discovered optimal family size patterns for survival
-- Comprehensive missing data analysis (Age: 20%, Deck: 77%)
-- Set foundation for feature engineering in Day 2
+- Successfully analyzed global streaming trends across all platforms
+- Mastered pandas fundamentals with real entertainment data
+- Identified key insights: TV shows have higher ratings, Action/Drama dominate trends
+- Discovered correlation patterns between popularity and ratings
+- Built comprehensive EDA workflow with 15+ visualizations
+- Set foundation for streaming data feature engineering in Day 2
 
 **Next Steps:**
-- Day 2: Data cleaning and feature engineering
-- Focus on missing value imputation and categorical encoding
-- Prepare clean dataset for modeling in Days 3-7
+- Day 2: Streaming data cleaning and feature engineering
+- Focus on genre processing, missing data handling, and content categorization
+- Prepare clean entertainment dataset for popularity prediction modeling
 
 ---
 

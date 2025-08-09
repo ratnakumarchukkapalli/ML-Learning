@@ -28,8 +28,8 @@
 
 | Day | Topic | Cline Prompt | Deliverable |
 |-----|-------|--------------|-------------|
-| **1** | Dataset handling & EDA | ✅ "I'm refreshing ML skills. Load Titanic or Iris dataset, explore with Pandas & Seaborn, explain each step before code, then run EDA." | ✅ Notebook: EDA + 2 plots |
-| **2** | Data cleaning & feature engineering | "Continue dataset. Explain missing value handling, encoding, scaling, pros/cons. Show code & choose best method here." | Clean dataset notebook |
+| **1** | Global Streaming Trends EDA | ✅ "Analyze global streaming trends data. Load entertainment data, explore with Pandas & Seaborn, explain each step before code, then run EDA." | ✅ Notebook: Entertainment EDA + visualizations |
+| **2** | Streaming data cleaning & feature engineering | "Continue streaming dataset. Explain missing value handling, genre processing, categorical encoding, feature scaling for entertainment data. Show code & choose best method." | Clean streaming dataset notebook |
 | **3** | Logistic regression | "Teach me logistic regression from scratch. Explain math intuition, train/test split, fit model, accuracy. Include inline comments." | Logistic regression notebook |
 | **4** | Classification metrics | "Teach precision, recall, F1, ROC-AUC in detail. Implement in scikit-learn, visualize, explain real-world use cases." | Metrics notebook + visuals |
 | **5** | Decision trees vs random forests | "Explain both models, compare with logistic regression, visualize tree, show feature importances." | Model comparison notebook |
@@ -211,7 +211,7 @@ ML-Learning/
 ├── requirements.txt             # Python dependencies
 ├── setup_and_launch.sh         # macOS setup script
 ├── week1/                       # Week 1 deliverables
-│   ├── day1_data_loading_and_eda.ipynb  ✅ (Completed)
+│   ├── day1_streaming_trends_eda.ipynb  ✅ (Completed)
 │   ├── day2_cleaning.ipynb
 │   ├── day3_logistic.ipynb
 │   └── ...
@@ -267,7 +267,7 @@ git push origin main
 
 Example:
 ```bash
-git commit -m "Week 1 Day 1: EDA - Completed Titanic dataset analysis with missing data patterns and survival insights"
+git commit -m "Week 1 Day 1: EDA - Completed global streaming trends analysis with genre patterns and popularity insights"
 ```
 
 ---
