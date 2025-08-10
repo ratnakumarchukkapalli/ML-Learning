@@ -293,3 +293,4 @@ This learning plan and code are open source under MIT License.
 *Remember: Consistency beats intensity. 1-2 hours daily for 8 weeks will transform your ML skills.*
 
 **Next Step**: Run `./setup_and_launch.sh` and continue with Day 2!
+
